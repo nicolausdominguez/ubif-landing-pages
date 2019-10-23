@@ -1,0 +1,38 @@
+/* Fonts */
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bebas {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+}
+
+/* Colors */
+
+.bg-frost-white {
+  background: #F4F6F8;
+}
+
+.bg-repair-red {
+  background: #DA291C;
+}
+
+.bg-gadget-grey {
+  background: #565759;
+}
+
+.fix-gray {
+  color: #BABABA;
+}
+
+/* Custom Styles */
+
+.content-border {
+  background: url(../img/content-border-red.png) 12px top no-repeat;
+}
