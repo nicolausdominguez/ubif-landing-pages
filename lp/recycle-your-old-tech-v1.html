@@ -31,6 +31,19 @@ Stop by today!">
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '568457057292591');
   fbq('track', 'PageView');
+  });
+</script>
+<script type="text/javascript">
+  var button = document.getElementById('drivingDirections');
+  button.addEventListener(
+    'click', 
+    function() { 
+      fbq('track', 'Lead', {
+        content_name: 'View Driving Directions'
+      });          
+    },
+    false
+  );
 </script>
 <noscript>
   <img height="1" width="1"
@@ -119,12 +132,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           allowfullscreen="">
         </iframe>
         <div class="pv2">
-          <a href="https://goo.gl/maps/9Jh3ihYfZjv5cwUn6" target="_blank" class="f4 bg-repair-red pa3 br2 w-100 white open-sans link db ttu tc fw7">Click Here for Driving Directions</a>
+          <a href="https://goo.gl/maps/9Jh3ihYfZjv5cwUn6" target="_blank" id="drivingDirections" class="f4 bg-repair-red pa3 br2 w-100 white open-sans link db ttu tc fw7">Click Here for Driving Directions</a>
         </div>
       </div>
     </div>
   </div>
-  <p class="ttu f5 moon-gray tc pv4 open-sans mt4">&copy;2019 UBREAKIFIX</p>
+  <p class="ttu f6 moon-gray tc open-sans pv4">&copy;2019 UBREAKIFIX | <a href="privacy-policy.html" target="_blank" class="f6 blue">Privacy Policy</a></p>
 </div>
 </body>
 </html>
