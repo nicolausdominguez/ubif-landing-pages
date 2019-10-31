@@ -1,0 +1,130 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<title>Don't know how to cut the cord?</title>
+<meta name="description" content="Don't know how to cut the cord? - Sick of paying for your cable bill but don’t understand streaming? We’ll hold your hand through the process to help you save money and get the best TV experience.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../css/tachyons.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="https://use.typekit.net/trh0pxv.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WM8JM7D');</script>
+  <!-- End Google Tag Manager -->
+<!-- Facebook -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '568457057292591');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1"
+  src="https://www.facebook.com/tr?id=568457057292591&ev=PageView
+  &noscript=1"/>
+</noscript>
+<!-- Fullstory -->
+<script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_script'] = 'fullstory.com/s/fs.js';
+window['_fs_org'] = 'NNJE8';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+    o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+    g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+    g.log = function(a,b) { g("log", [a,b]) };
+    g.consent=function(a){g("consent",!arguments.length||a)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(){};
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+<script type="text/javascript">
+    function changeClass(){
+      var form  = document.getElementsByTagName('form')[0];
+      var zip = document.getElementById('zip');
+
+      form.addEventListener("submit", function (event) {
+      // Each time the user tries to send the data, we check
+      // if the zip field is valid.
+      if (zip.validity.valid) {
+        document.getElementById("fieldset").className = "dn";
+        document.getElementById("zipSearchResults").className = "bn";
+        event.preventDefault();
+      }
+    }, false);
+    }
+</script>
+</head>
+<body class="bg-near-white">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM8JM7D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!--[if IE]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<div>
+  <div class="bg-near-black pv4 pv5-ns ph3 ph0-ns cover" style="background: #333 url(../img/wifi-bg.jpg) center 0 no-repeat;">
+    <h1 class="white tc open-sans f2 f1-ns mb2 measure-narrow lh-copy lh-title-ns center fw5 mb4 mb5-ns">Life stops when the WIFI goes out. Don't let it happen to you again. We are here to help.</h1>
+    <div class="bg-white mw7 center pa4 pa5-ns br2 shadow-2">
+      <form action="" class="">
+        <fieldset class="bn" id="fieldset">
+          <label for="zip" class="open-sans ttu b db pb3 lh-copy">FIND YOUR STORE TO GET STARTED</label>
+          <div class="flex-ns items-center">
+            <div class="w-100 w-75-ns pr2">
+              <input type="text" id="zip" name="zip" placeholder="ENTER YOUR ZIP CODE" required class="pa2 w-100 ba br2 b--gray open-sans">
+            </div>
+            <div class="w-100 w-25-ns pt3 pt0-ns">
+              <input onclick="changeClass()" type="submit" name="submit"  class="bn bg-blue white open-sans ttu pa2 ph3 br2 b pointer dim">
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <!-- Show this block for form result -->
+      <div class="dn" id="zipSearchResults">
+        <div class="tc">
+          <img src="../img/calendar.svg" alt="Coming Soon" class="center">
+          <h2 class="open-sans near-black fw5">Coming Soon!</h2>
+        </div>
+        <h2 class="open-sans ttu lh-copy f4 tc mb2 mb0-ns pb0 mt4 fw5">Sign up for our newsletter</h2>
+        <p class="open-sans lh-copy f5 tc fix-gray mb2 mb0-ns mv0">Join our newsletter and get access to exclusive discounts and promotions.</p>
+        <div id="mc_embed_signup" class="pv3 tc">
+          <form action="https://solutoexpert.us20.list-manage.com/subscribe/post?u=525e1cc666dfdfc99a5d20ef3&amp;id=2e0048533d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <label for="mce-EMAIL" class="dn">Subscribe</label>
+              <div class="flex-ns flex-wrap justify-center">
+                <div>
+                  <input type="email" value="" name="EMAIL" class="email pa2 w-100 br2 ba b--gray open-sans" id="mce-EMAIL" placeholder="Email Address" required>
+                </div>
+                <div class="pl2-ns pt2 pt0-ns">
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_525e1cc666dfdfc99a5d20ef3_2e0048533d" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button bg-blue white pa2 ph3 br2 fw6 open-sans"></div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="ttu f6 moon-gray tc open-sans"><a href="privacy-policy.html" target="_blank" class="f6 blue link">Privacy Policy</a></p>
+</div>
+</body>
+</html>
