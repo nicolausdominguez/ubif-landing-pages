@@ -13,6 +13,72 @@
   font-weight: 400;
 }
 
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.circle {
+  background: url(../img/circle.svg) center top no-repeat;
+}
+
+.wifi-signal-home {
+  background: url(../img/wifi-signal-home.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.wifi-modem {
+  background: url(../img/wifi-modem.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.data-transfer {
+  background: url(../img/data-transfer.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.booking-layout {
+  background-color: none !important;
+}
+
+.cc-camera {
+  background: url(../img/cc-camera.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.real-estate-lock {
+  background: url(../img/real-estate-lock.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.cloud-lock {
+  background: url(../img/cloud-lock.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.space-robot {
+  background: url(../img/space-robot.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+.eco-house {
+  background: url(../img/eco-house.svg) 0 center no-repeat;
+  padding-left: 48px;
+  line-height: 40px;
+}
+
+
 /* Colors */
 
 .bg-frost-white {
@@ -31,8 +97,8 @@
   color: #BABABA;
 }
 
-.repair-red {
-  color: #DA291C;
+.bg-slate-gray {
+  background: #2B2E34;
 }
 
 /* Custom Styles */
